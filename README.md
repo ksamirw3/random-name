@@ -2,9 +2,22 @@
 
 a [Sails](http://sailsjs.org) application
 
+## Use Docker file
+
 make sure you install docker-compose in your machine   "sudo apt-get install docker-compose"
 
 cd imessage folder the type "docker-compose up"
+
+
+## Manual install
+
+1. change the database setting config/connections.js
+
+1. npm install
+
+1. sails lift
+
+
 
 **Front Test**
 
@@ -54,14 +67,3 @@ http://localhost:1337/randomName/?gender=female
      `"gender" : "male"`
 	`}`
  `}`
-
-
-
-
-## Manual install
-
-1. change the database setting config/connections.js
-
-1. npm install
-
-1. sails lift
