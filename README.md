@@ -56,3 +56,12 @@ http://localhost:1337/randomName/?gender=female
  `}`
 
 
+
+
+## Manual install
+
+1. change the database setting config/connections.js
+
+1. npm install
+
+1. sails lift
