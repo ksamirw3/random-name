@@ -15,9 +15,44 @@ cd imessage folder the type "docker-compose up"
 
 * get random name
 
-`http://localhost:1337/randomName/
-`http://localhost:1337/randomName/?gender=male
-`http://localhost:1337/randomName/?gender=female
-  
-  
- 
+http://localhost:1337/randomName/
+
+http://localhost:1337/randomName/?gender=male
+
+http://localhost:1337/randomName/?gender=female
+
+* Post random-name
+
+`POST http://localhost:1337/randomName/create`
+
+`{ `
+`"RandomName" : {`
+	 `"name": "Karim",`
+     `"gender" : "male"`
+	`}`
+ `}`
+
+* post random data
+
+`POST http://localhost:1337/randomName/create`
+
+`{ `
+`"RandomName" : {`
+     `"name": "",`
+     `"gender" : ""`
+	`}`
+ `}`
+
+
+* Update name
+
+`POST http://localhost:1337/randomName/update/59764668f489410700b401df`
+
+`{ `
+`"RandomName" : {`
+     `"name": "Karim Samir",`
+     `"gender" : "male"`
+	`}`
+ `}`
+
+
